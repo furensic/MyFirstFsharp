@@ -15,3 +15,6 @@ let a = 2
 match a with
     | 1 -> printfn "choosen: %A" a
     | 2 -> printfn "choosen: %A" a
+    
+type NameAndAge = {Name:string;Age:int}
+let MyNameAndAge = {Name="Furensic"; Age=23}
