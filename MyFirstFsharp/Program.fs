@@ -10,3 +10,8 @@ printfn "square: %A" num1
 let squareToN n = [0..n] |> List.map square
 
 squareToN 5 |> printfn "square: %A"
+
+let a = 2
+match a with
+    | 1 -> printfn "choosen: %A" a
+    | 2 -> printfn "choosen: %A" a
